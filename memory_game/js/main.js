@@ -17,13 +17,12 @@
  cardsInPlay.push(cardTwo);
  console.log("User flipped " + cardTwo);
  if (cardsInPlay.length === 2){
- 	console.log(true);}
- else {console.log(false);}
+ 	// console.log(true);}
+
  if (cardsInPlay[0] === cardsInPlay[1]) {
  	alert("You found a match!");}
- 	else {alert("Sorry, try again ");
- }
-
+ 	else {alert("Sorry, try again ");}}
+ else {console.log(false);}
 
 
 
